@@ -1,8 +1,8 @@
-const a = parseInt(process.argv[2], 10);
-const b = parseInt(process.argv[3], 10);
-
-function add (x'y) {
-  return x + y;
+function add(a, b){
+  return a + b;
 }
 
-console.log(add(a,b));
+const a = parseInt(process.argv[2]);
+const b = parseInt(process.argv[3]);
+
+console.log(add(a, b));
